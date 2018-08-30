@@ -1,0 +1,14 @@
+Git 查看提交历史
+
+    git log             按q键退出，回到命令行
+    git log --oneline   查看历历记录的简洁版本
+    git log --graph     查看创建分支、合并
+    git log --reverse   逆向显示所有日志
+
+    经常使用的
+    git log --author=<author> --oneline -<linenumber>
+                        查看<author>这个作者提交的<linenumber>记录数
+
+    git log --befor={3.weeks.age} --after={2018-08-25} --no-merges
+                        查看3周前且2018-08-25前的所有交提，
+                        --no-merges 隐藏合并提交
