@@ -1,4 +1,5 @@
 
+
 git 分支管理
 
 git branch 列出本地分支
@@ -16,4 +17,8 @@ git merge 合并分支
 
 
 git branch -d <branchname>  创建新分支并切换到新分支
+
+
+
+git push --set-upstream origin <branch name> 把本地的分支提交到远程分支
 
