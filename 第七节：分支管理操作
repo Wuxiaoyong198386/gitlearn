@@ -1,1 +1,3 @@
 git branch -d <branchname>
+
+git push --set-upstream origin <branch name> 把本地的分支提交到远程分支
