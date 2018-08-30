@@ -1,3 +1,4 @@
+
 git 分支管理
 
 git branch 列出本地分支
@@ -7,4 +8,7 @@ git branch <branchname> 新建本地分支
 git checkout <branchname> 切换分支，git会用分支的最后提交的快照替换你的工作目录的内容，多个分支不需要多目录
 
 git merge 合并分支
+
+
+git branch -d <branchname>
 
