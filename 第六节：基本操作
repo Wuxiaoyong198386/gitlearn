@@ -1,4 +1,4 @@
-git init
+git init                为你创建master分支
 git clone <repos>
 
 git add <file>          添加到缓存（也叫快照）
